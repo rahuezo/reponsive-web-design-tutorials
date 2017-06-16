@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Bootstrap Cheat Sheet</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <!-- Typography  -->
+
+  <!-- Makes it so that content is not sticking to sides or top -->
+  <div class="container">
+
+    <!-- This works for adding titles  -->
+    
+    <h1 class="page-header">Hello, world! <small>Secondary Text</small></h1>
+
+    <!-- This paragraph is given more importance (i.e. bigger font) -->
+
+    <p class="lead">Ex consectetur magna deserunt officia eu aliquip deserunt aliqua ea non esse amet.</p>
+
+    <!-- By default p's have better looking line-height and alignment  -->
+
+    <p>Ut excepteur ex voluptate <mark>something that I like is English</mark>exercitation incididunt esse ea cillum veniam laborum aliquip ad dolore ut et reprehenderit ad consequat dolor incididunt laborum in in occaecat ad dolore esse elit magna sed deserunt commodo dolore aute eiusmod nostrud dolore sunt ullamco dolore ea incididunt cupidatat excepteur fugiat in commodo esse in non reprehenderit adipisicing sit est dolor est velit reprehenderit ut sint culpa voluptate quis mollit sint id voluptate qui irure ad reprehenderit magna in qui aliquip ad est aliqua culpa exercitation duis eiusmod ea deserunt ut est minim aute nisi sint dolor voluptate tempor ex officia anim sint magna ad adipisicing sint culpa excepteur esse ut minim exercitation eiusmod ad ad labore anim qui sed do et adipisicing laborum in dolore aliqua dolore sed ex id non ex cillum enim sunt velit magna veniam dolor in adipisicing eiusmod labore non consequat ullamco mollit et ea elit in reprehenderit nostrud tempor mollit enim ut enim incididunt officia laboris sit in cillum <del>officia deserunt</del> sint.</p>
+  
+    <hr>
+
+    <!-- Alignment and Transformation -->
+
+    <p class="text-left text-capitalize">Left aligned text</p>
+    <p class="text-center">Center aligned text</p>
+    <p class="text-right">Right aligned text</p>
+    <p class="text-justify">Justified text</p>
+    <p class="text-nowrap">No Wrap text</p>
+
+
+    <!-- Quick Floats -->
+
+    <div class="pull-right">Div floated to right</div>
+    <div class="pull-left">Div floated to left</div>
+
+    <!-- Clear float -->
+
+    <div class="clearfix"></div>
+    <hr>
+
+    <!-- Blockquote -->
+
+    <blockquote class="blockquote-reverse">
+      <p>Elit esse officia aliqua consectetur in esse labore sint excepteur exercitation eiusmod excepteur dolor anim nostrud reprehenderit adipisicing nisi in culpa velit velit in eiusmod sed ex non commodo dolore officia velit id in minim anim id elit occaecat proident reprehenderit velit aliquip in aute ut duis irure fugiat ea laboris sint dolor laboris occaecat nulla esse eu reprehenderit culpa sint labore laborum commodo id sit et minim ad ut nostrud voluptate in dolor anim esse ut in sed magna exercitation exercitation ad quis pariatur velit ex consectetur ea nisi in adipisicing reprehenderit voluptate veniam elit dolore aliqua ut exercitation voluptate sit in minim minim nulla eu dolor amet ex dolore ullamco irure ea dolor enim reprehenderit nisi incididunt reprehenderit mollit tempor dolore reprehenderit in cupidatat velit et ut adipisicing reprehenderit amet sint anim quis est laborum sit in duis irure nisi amet dolore sed ut exercitation aute sunt officia do ex nostrud dolor est quis ullamco reprehenderit dolor amet elit pariatur dolore officia proident do in reprehenderit non consectetur.</p>
+      <footer>Quote by <cite title="Rudy Huezo">Rudy Huezo</cite></footer>
+
+
+    </blockquote>
+
+    <!-- Lists -->
+
+    <ul class="list-unstyled">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+    
+    <ul class="list-inline">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <hr>
+
+    <!-- Code -->
+  
+    <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+    
+    <br>
+    <br>
+    
+    Change directory with <kbd>cd</kbd>
+    
+    <br>
+    
+    To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+
+    <br><br>
+
+    <hr>
+
+    <!-- Contextual Colors -->
+
+    <p class="text-primary">Hello World</p>
+    <p class="text-success">Hello World</p>
+    <p class="text-info">Hello World</p>
+    <p class="text-warning">Hello World</p>
+    <p class="text-danger">Hello World</p>
+    <p class="text-muted">Hello World</p>
+
+  <!-- Contextual BG Colors -->
+
+    <p class="bg-primary">Hello World</p>
+    <p class="bg-success">Hello World</p>
+    <p class="bg-info">Hello World</p>
+    <p class="bg-warning">Hello World</p>
+    <p class="bg-danger">Hello World</p>
+    <p class="bg-muted">Hello World</p>
+
+  </div>
+  <hr>
+
+  <div class="container">
+    <!-- Buttons   -->
+
+    <button class="btn btn-default">Button</button>
+    <a href="#" class="btn btn-default" role="button">Link</a>
+    <input type="submit" class="btn btn-default" value="Submit">
+
+    <!-- Contextual Buttons -->
+    
+    <button class="btn btn-default">Default</button>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-muted">Muted</button>
+  
+    <br><br>
+    <!-- Button Sizes -->
+    
+    <button class="btn btn-default btn-lg">Default</button>
+    <button class="btn btn-default btn-xs">Default</button>
+  
+  </div>
+
+  <hr>
+
+  <div class="container">
+    
+    <!-- Forms -->
+
+    <form action="">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" placeholder="Add Name" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="Add Email" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Add Message" class="form-control"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <select class="form-control">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label>Upload File</label>
+        <input type="file">
+
+        <p class="help-block">Only png and jpg allowed</p>
+      </div>
+
+
+      <div class="form-group">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <br><br>
+    <form action="" class="form-inline">
+      <div class="form-group">
+        <label for="">Email</label>
+        <input type="email" class="form-control" placeholder="Email">
+      </div>
+
+      <div class="form-group">
+        <label for="">Password</label>
+        <input type="password" class="form-control" placeholder="Password">
+      </div>
+
+      <div class="checkbox">
+        <label for="">
+          <input type="checkbox">Remember Me
+        </label>
+
+        <button type="submit" class="btn btn-default">Login</button>
+      </div>
+
+    </form>
+  </div>
+
+  <hr><br>
+  <div class="container">
+    <!-- Tables -->
+
+  <table style="width:100%" class="table table-striped table-bordered table-hover table-condensed">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th> 
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td> 
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td> 
+      <td>94</td>
+    </tr>
+  </table>
+  </div>
+
+
+
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
